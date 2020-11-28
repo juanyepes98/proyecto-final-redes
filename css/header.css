@@ -1,0 +1,65 @@
+.header{
+    width: 100%;
+    background-color: var(--blue-color);
+}
+
+.header .header__top{
+    width: 150px;
+    margin: auto;
+}
+
+.header__top .header__logo{
+    padding: 10px;
+}
+
+.header__center{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__options-list{
+    display: flex;
+}
+
+.header__options-list li{
+    list-style: none;
+    margin: 10px;
+}
+
+.header__options-list li a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.header__options-list li a:hover{
+    cursor: pointer;
+    color: var(--purple);
+    text-decoration: underline;
+}
+
+/* Animations */
+
+.fadeInDown{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%,0);
+        transform: translate3d(0, -100%,0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}

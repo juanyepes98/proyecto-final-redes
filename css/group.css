@@ -1,0 +1,50 @@
+.main__users{
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__users .user{
+    width: 200px;
+    box-shadow: var(--box);
+    background-color: var(--white-color);
+}
+
+.user .user_info{
+    padding: 15px;
+}
+
+.user .user_info h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user .user__img{
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.upper{
+    transform: translateY(-80px);
+}
+
+/* Animations */
+.fadeIn{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

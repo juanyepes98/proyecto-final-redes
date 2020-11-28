@@ -1,0 +1,94 @@
+.main__title{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main__reports{
+    background-color: var(--white-color);
+    min-height: 100vh;
+}
+
+.main__list-machine{
+    margin: 40px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.list-machine-article{
+    width: 30%;
+}
+
+.list-machine-article .article__img{
+    text-align: center;
+}
+
+.list-machine-article .article__img img{
+    height: 100%;
+}
+
+.list-machine-article .article__info{
+    box-shadow: var(--box);
+    margin-top: -5px;
+    padding: 10px;
+    min-height: 147px;
+}
+
+.list-machine-article .article__info h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.list-machine-article .article__info a{
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--purple);
+    border: 1px dotted var(--purple);
+    padding: 5px;
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.list-machine-article .article__info a:hover{
+    background-color: rgba(191, 19, 99, 0.2);
+}
+
+.main__list-banner{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.main__list-banner .list-banner-article{
+    width: 25%;
+}
+
+.main__list-banner .list-banner-article:hover{
+    cursor: pointer;
+}
+
+.main__list-banner .list-banner-article .article__img{
+    text-align: center;
+}
+
+.main__list-banner .list-banner-article .article__img img{
+    border-radius: 50%;
+    height: 236px;
+}
+
+.main__list-banner .list-banner-article .article__info h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
